@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  background-color: #e5e4e2;
+}
+h1,h2,h3{
+  margin: 0 0 10px;
+}
+p{
+  margin: 0 0 15px;
+}
+figure{
+  margin: 0 0 10px;
+}
+.header {
+  background: #30373c;
+  color: #979799;
+  padding: 21px 0 5px 0;
+}
+.box-container,
+main{
+  width: 980px;
+  margin: 0 auto;
+}
+.letter-primary::first-letter {
+  color: #ff1744;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  width: 125px;
+  height: 22px;
+  text-transform: uppercase;
+  font-family: "Arial - Bold MT";
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  font-size: 30px;
+  /* Размер шрифта в процентах */
+  font-weight: 400;
+  /* Жирное начертание */
+  display: inline-block;
+}
+.logo-title{
+  display: block;
+  margin: 0 0 10px;
+  font-family: "Arial - Bold MT";
+  font-size: 12px;
+}
+main{
+  background: #ffffff;
+}
+h1{
+  margin: 0 0 15px;
+}
+.box-banner{
+  position: relative;
+}
+/*.box-banner:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  clear: both;
+  width: 980px;
+  height: 246px;
+  background:  url(../image/abdominal-trainer.jpg) no-repeat;
+}*/
+.text-banner{
+  width: 520px;
+  padding: 0 20px;
+}
+.navigation {
+  background-color: #ff1744;
+  text-align: right;
+}
+.navigation>a {
+  display: inline-block;
+  color: #fffbfc;
+  padding: 10px 30px;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-content{
+  width: 730px;
+  float: right;
+}
+
+#sidebar {
+  overflow: hidden;
+  float: left;
+  width: 190px;
+  padding: 0 30px;
+}
+
+.loyaut {
+  font-size: 0;
+}
+
+.loyout>.loyout-item {
+  font-size: 16px;
+  display: inline-block;
+}
+
+.loyout>.loyout-item:first-child {
+  width: 20%;
+}
+
+.loyout>.loyout-item:last-child {
+  width: 80%;
+}
+.row {
+  width: 100%;
+  overflow: hidden;
+}
+
+.col {
+  float: left;
+  width: 33.3333%;
+  font-size: 16px;
+}
+.grid {
+  width: 100%;
+  overflow: hidden;
+}
+.col-card{
+  width: 33.3333%;
+  float: left;
+}
+.hero {
+  background-image: url(image/abdominal-trainer.jpg);}
+footer{
+  background: #262d34;
+}
